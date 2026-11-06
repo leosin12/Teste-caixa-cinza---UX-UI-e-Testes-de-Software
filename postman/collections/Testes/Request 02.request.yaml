@@ -1,0 +1,19 @@
+$kind: http-request
+description: ""
+url: "{{base_url}}/auth/v1/token?grant_type=password"
+method: GET
+headers:
+  apikey: "{{api_key}}"
+  Content-Type: application/json
+queryParams:
+  grant_type: password
+body:
+  type: json
+  content: "{\r
+
+    \  \"email\": \"usuario@email.com\",\r
+
+    \  \"password\": \"123456\"\r
+
+    }"
+order: 1839

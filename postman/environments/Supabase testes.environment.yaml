@@ -1,0 +1,10 @@
+name: Supabase testes
+values:
+  - key: base_url
+    value: ''
+  - key: api_key
+    value: ''
+  - key: email
+    value: ''
+  - key: password
+    value: ''
